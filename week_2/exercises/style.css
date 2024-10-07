@@ -1,0 +1,28 @@
+body {
+    margin: o;
+    background-color: aquamarine;
+    color: blueviolet;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about_header {
+    text-align: center;
+}
+
+.img_container {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    border: 2px solid grey;
+}
+
+.about_content {
+    text-align: center;
+}

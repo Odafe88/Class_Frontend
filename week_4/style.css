@@ -1,0 +1,46 @@
+/* .header {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+a:link {
+    color: brown;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: aqua;
+}
+
+div {
+    width: 100%;
+}
+
+.button {
+    background-color: orange;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+} */
+
+ol {
+    border: 2px solid grey;
+    padding: 10px;
+    background-color: beige;
+    text-align: center;
+}
+
+li {
+    border: 1px dotted black;
+    padding: 5px;
+}
+
+li:nth-child(5) {
+    border: 2px solid orange;
+}

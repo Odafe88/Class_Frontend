@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    min-height: 120vh;
+}
+
+.ancestor {
+    position: relative;
+    width: 700px;
+    height: 700px;
+    border: 3px solid black;
+}
+
+/* Code for Position Static */
+.position_item_1 {
+    position: static;
+    width: 500px;
+    height: 200px;
+    border: 2px solid red;
+    top: 100px;
+}
+
+
+/* Code for position Relative */
+.position_item_2 {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    border: 2px solid blue;
+    top: 50px;
+    left: 50px;
+}
+
+/* Code pfor position Absolute */
+
+.position_item_3 {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    border: 2px solid green;
+    top: 10px;
+    left: 10px;
+}
+
+/* Code for Position Sticky */
+.position_item_4 {
+    position: sticky;
+    width: 500px;
+    height: 200px;
+    border: 2px solid purple;
+    top: 0px;
+}
+
+/* Code for position fixed */
+
+.position_item_5 {
+    position: fixed;
+    width: 500px;
+    height: auto;
+    border: 2px solid orangered;
+    top: 100px;
+    left: 100px;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    width: 700px;
+    height: auto;
+    padding: 10px;
+    background-color: purple;
+    color: pink;
+}
